@@ -140,6 +140,7 @@ h2 {
 
 .div-1 p {
     border-bottom: 4px solid #FB3B64;
+    width: 150px;
 }
 
 .div-1 {
@@ -149,7 +150,9 @@ h2 {
     height: 370px;
     margin-top: 80px;
     margin-left: 250px;
-
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .div-2 {
@@ -161,8 +164,25 @@ h2 {
     margin-left: 250px;
 }
 
+.bealways {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.bealways p {
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.macbook2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+}
+
 .mc-2 {
-    max-width: 30%;
+    max-width: 55%;
 }
 
 .iphone2 {
@@ -172,11 +192,22 @@ h2 {
 .div-3 {
     background-color: white;
     box-sizing: border-box;
-    width: 800px;
+    /*  width: 800px; */
+    width: 450px;
     height: 370px;
     margin-left: 250px;
     margin-bottom: 40px;
+
 }
+
+.foto-trumpet {
+    max-width: 25%;
+    background-color: #55DFB4;
+}
+
+
+
+
 
 .section-5 {
     height: 900px;
@@ -225,7 +256,7 @@ button.begin {
 .basic {
     border: 2px solid #FB3B64;
     border-radius: 18px;
-    /* width: 200px; */
+    width: 300px;
 
 }
 
@@ -242,6 +273,7 @@ button.begin {
 .professional {
     border: 2px solid #07ACE6;
     border-radius: 18px;
+    width: 300px;
     /*  height: 200px; */
 }
 
@@ -252,14 +284,15 @@ button.begin {
 
 .professional p {
     padding-bottom: 40px;
-    /* height: 200px; */
+    height: 100px;
     justify-content: center;
     display: flex;
     margin-top: 20px;
 }
 
 .premium {
-
+    height: 400px;
+    width: 300px;
     border: 2px solid #55DFB4;
     border-radius: 18px;
 }
@@ -280,4 +313,19 @@ button.begin {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+.btn1 {
+    width: 200px;
+    margin-left: 45px;
+}
+
+.btn2 {
+    width: 200px;
+    margin-left: 45px;
+}
+
+.btn3 {
+    width: 200px;
+    margin-left: 45px;
 }
