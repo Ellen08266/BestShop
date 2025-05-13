@@ -159,29 +159,57 @@ h2 {
     height: 370px;
     margin-left: 250px;
 }
+.mc-2  {
+    max-width: 30%;
+}
+.iphone2 {
+    max-width: 30%;
+}
+
 .div-3 {
     background-color: white;
     box-sizing: border-box;
     width: 800px;
     height: 370px;
     margin-left: 250px;
+    margin-bottom: 40px;
 }
 .section-5 {
     height: 900px;
 }
 
-/* .pricing {
+.pricing {
     text-align: center;
     font: normal normal normal 36px/42px Raleway;
     letter-spacing: 0px;
     color: #000000;
-    opacity: 1;
     font-style: Open Sans, Regular, ;
 
-} */
+}
 
 .box {
     justify-content: space-evenly;
     display: flex;
     align-items: center;
+}
+.section-5 h2 {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+button.begin {
+    width: 230px;
+    height: 50px;
+    border-radius: 40px 40px 40px 40px;
+    border: transparent;
+    margin-top: 25px;
+}
+.btn1 {
+    background-color: red;
+}
+.btn2 {
+    background-color: #07ACE6;
+}
+.btn3 {
+    background-color: #55DFB4;
 }
