@@ -31,6 +31,10 @@ body {
 .navigation {
     display: flex;
     gap: 40px;
+    text-align: center;
+    font: normal normal bold 11px / 15px Open Sans;
+    letter-spacing: 3.28px;
+    color: #A5A5A5;
 }
 
 button {
@@ -162,6 +166,9 @@ h2 {
     width: 800px;
     height: 370px;
     margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .bealways {
@@ -169,8 +176,13 @@ h2 {
     margin-bottom: 20px;
 }
 
-.bealways p {
+.be-always p {
     font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.be-always h2 {
+    margin-top: 30px;
     padding-bottom: 20px;
 }
 
@@ -186,7 +198,28 @@ h2 {
 }
 
 .iphone2 {
-    max-width: 30%;
+    max-width: 80%;
+    margin-top: 40px;
+}
+
+.iphone-2 {}
+
+.your-shop p {
+    font-size: 12px;
+    padding-bottom: 20px;
+
+
+}
+
+.your-shop h2 {
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.div-2 p {
+    border-bottom: 4px solid #08A6E4;
+    width: 150px;
+
 }
 
 .div-3 {
@@ -197,16 +230,37 @@ h2 {
     height: 370px;
     margin-left: 250px;
     margin-bottom: 40px;
+    display: flex;
 
 }
+
+.div-3 h2 {
+
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.div-3 p {
+    border-bottom: 4px solid #55DFB4;
+    width: 150px;
+    font-size: 12px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+
+}
+
+
 
 .foto-trumpet {
-    max-width: 25%;
+    max-width: 59%;
     background-color: #55DFB4;
+    margin-left: 327px;
+    border-radius: 5px;
 }
 
-
-
+.trumpet {
+    margin-top: 80px;
+}
 
 
 .section-5 {
@@ -243,6 +297,8 @@ button.begin {
 
 .btn1 {
     background-color: red;
+    position: absolute;
+    top: 2810px;
 }
 
 .btn2 {
@@ -257,6 +313,7 @@ button.begin {
     border: 2px solid #FB3B64;
     border-radius: 18px;
     width: 300px;
+    height: 400px;
 
 }
 
@@ -302,6 +359,7 @@ button.begin {
     justify-content: center;
     display: flex;
     margin-top: 20px;
+
 }
 
 .premium h2 {
@@ -328,4 +386,20 @@ button.begin {
 .btn3 {
     width: 200px;
     margin-left: 45px;
+}
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.twiter {
+    background-image: url(../images/Twitter.svg);
 }
