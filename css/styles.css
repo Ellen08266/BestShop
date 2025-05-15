@@ -388,8 +388,46 @@ button.begin {
     margin-left: 45px;
 }
 
+.section-6 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+/* a.email::before {
+    content: " ";
+    position: absolute;
+    background: url(../images/Mail\ Icon.svg) no-repeat;
+    margin-left: 30px;
 
 
+} */
+
+.contact p {
+    color: #08A6E4;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(188, 184, 184);
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+textarea {
+    text-align-last: left;
+    border: transparent;
+    font-size: 9px;
+    outline: none;
+}
+
+button.btn {
+
+    width: 159px;
+}
+
+
+.checkbox input:checked {
+    background: url(/images/Checkmark.svg) no-repeat;
+
+}
 
 
 
