@@ -217,6 +217,17 @@ div.text p {
     margin-right: 90px;
 }
 
+.cerveny {
+    width: 150px;
+    height: 150px;
+    background-color: #FB3B64;
+    border-radius: 20%;
+    margin-bottom: 110px;
+    margin-left: 100px;
+
+}
+
+
 .bealways {
     margin-top: 30px;
     margin-bottom: 20px;
@@ -225,12 +236,14 @@ div.text p {
 .be-always p {
     font-size: 12px;
     padding-bottom: 20px;
+    margin-right: 250px;
 }
 
 .be-always h2 {
     margin-top: 30px;
     padding-bottom: 20px;
     font-size: 20px;
+    margin-right: 250px;
 }
 
 .macbook2 {
@@ -241,7 +254,7 @@ div.text p {
 }
 
 .mc-2 {
-    max-width: 55%;
+    max-width: %;
 }
 
 .iphone2 {
@@ -326,9 +339,10 @@ div.text p {
 }
 
 .section-5 h2 {
-    margin-bottom: 30px;
-    margin-top: 40px;
+   /*  margin-bottom: 30px;
+    margin-top: 40px; */
 }
+
 
 button.begin {
     width: 230px;
@@ -340,12 +354,13 @@ button.begin {
 
 .btn1 {
     background-color: red;
-    position: absolute;
-    top: 2810px;
+    margin-top: 55px;
 }
 
 .btn2 {
     background-color: #07ACE6;
+    margin-bottom: -90px;
+    
 }
 
 .btn3 {
@@ -370,6 +385,10 @@ button.begin {
     color: #FB3B64;
 }
 
+.basic ul {
+    line-height: 2;
+}
+
 .professional {
     border: 2px solid #07ACE6;
     border-radius: 18px;
@@ -377,17 +396,22 @@ button.begin {
 }
 
 .professional h2 {
-    margin-top: 0;
 
     color: #07ACE6;
+
 }
 
 .professional p {
-    padding-bottom: 40px;
+
     height: 100px;
     justify-content: center;
     display: flex;
     margin-top: 20px;
+}
+
+.professional ul {
+
+    line-height: 2;
 }
 
 .premium {
@@ -398,15 +422,21 @@ button.begin {
 }
 
 .premium p {
-    padding-bottom: 40px;
+
     justify-content: center;
     display: flex;
     margin-top: 20px;
+    
 
 }
 
 .premium h2 {
     color: #55DFB4;
+
+}
+
+.premium ul {
+    line-height: 2;
 }
 
 .box ul li {
@@ -486,12 +516,21 @@ a.tel {
 
 .checkmark {
 
-    border: 1px solid green;
+    border: 1px solid;
+    border-color: #55DFB4;
     border-radius: 4px;
     padding: 3px;
-    fill: green;
 
 }
+
+/* img.checkmark {
+    height: 20px;
+    width: 20px;
+  
+    }
+ */
+
+
 
 span {
 
