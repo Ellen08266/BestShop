@@ -25,7 +25,9 @@ body {
     display: flex;
     background-color: white;
     justify-content: space-between;
-    border: 1px solid gray;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    padding-top: 15px;
+ 
 }
 
 .navigation {
@@ -36,6 +38,19 @@ body {
     letter-spacing: 3.28px;
     color: #A5A5A5;
 }
+
+.navigation a {
+    color: #A5A5A5;
+}
+
+
+ a:hover {
+
+    color: #000000;
+    border-bottom: 2px solid #08A6E4;
+
+}
+
 
 button {
     color: white;
@@ -125,11 +140,17 @@ h2 {
     opacity: 1;
 }
 
-.text {
+div.text p {
+
     color: #A5A5A5;
+}
+
+.text {
+
     display: flex;
     justify-content: space-evenly;
     margin-top: 15px;
+
 }
 
 .section-4 {
@@ -184,6 +205,7 @@ h2 {
 .be-always h2 {
     margin-top: 30px;
     padding-bottom: 20px;
+    font-size: 20px;
 }
 
 .macbook2 {
@@ -214,6 +236,7 @@ h2 {
 .your-shop h2 {
     margin-top: 30px;
     padding-bottom: 20px;
+    font-size: 20px;
 }
 
 .div-2 p {
@@ -238,6 +261,8 @@ h2 {
 
     margin-top: 30px;
     padding-bottom: 20px;
+    font-size: 20px;
+    margin-left: 30px;
 }
 
 .div-3 p {
@@ -394,14 +419,28 @@ button.begin {
     gap: 50px;
 }
 
-/* a.email::before {
+a.email {
+
+    margin-left: 50px;
+}
+
+a.email::before {
     content: " ";
-    position: absolute;
     background: url(../images/Mail\ Icon.svg) no-repeat;
-    margin-left: 30px;
+    width: 10px;
+    height: 10px;
+    display: block;
+}
 
 
-} */
+a.tel::before{
+
+    content: " ";
+    background: url(../images/Phone\ Icon.svg) no-repeat;
+    width: 10px;
+    height: 10px;
+    display: block;
+}
 
 .contact p {
     color: #08A6E4;
@@ -409,6 +448,7 @@ button.begin {
     border-bottom: 1px solid rgb(188, 184, 184);
     margin-bottom: 30px;
     width: 300px;
+
 }
 
 textarea {
@@ -429,7 +469,11 @@ button.btn {
 
 }
 
+.questions p {
+    padding-bottom: 30px;
+    padding-top: 30px;
 
+}
 
 
 .footer {
@@ -438,6 +482,17 @@ button.btn {
     justify-content: space-evenly;
 }
 
+div.logo {
+    padding-top: 0;
+}
+
+
 .twiter {
-    background-image: url(../images/Twitter.svg);
+    background: url(../images/Twitter.svg) no-repeat;
+
+}
+
+.facebook {
+
+    background: url(../images/Facebook.svg) no-repeat;
 }
