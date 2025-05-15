@@ -4,15 +4,6 @@
     box-sizing: border-box;
 }
 
-.section-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
 .header {
     height: 70px;
     display: flex;
@@ -33,6 +24,8 @@
     color: #A5A5A5;
     height: 100%;
     align-items: center;
+    margin-right: 70px;
+
 }
 
 .navigation a {
@@ -61,8 +54,6 @@ button {
     margin-top: 25px;
 }
 
-
-
 a {
     text-decoration: none;
 
@@ -78,8 +69,15 @@ a {
     font: normal normal 300 32px/37px Raleway;
     letter-spacing: 0px;
     color: #08A6E4;
-    padding-top: 15px;
     margin-left: 136px;
+
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -92,6 +90,7 @@ a {
 h1 {
     font-family: raleway;
     font-weight: 300;
+    padding-top: 30px;
 }
 
 p {
@@ -117,7 +116,32 @@ h2 {
     justify-content: space-evenly;
     align-items: center;
     margin-top: 60px;
+   
 }
+
+.red-ball {
+
+    width: 80px;
+    height: 80px;
+    background-color: #FB3B64;
+    border-radius: 50%;
+}
+
+.blue-ball {
+    width: 80px;
+    height: 80px;
+    background-color:#08A6E4;
+    border-radius: 50%;
+}
+
+.green-ball {
+    width: 80px;
+    height: 80px;
+    background-color: #55DFB4;
+    border-radius: 50%;
+}
+
+
 
 
 .number {
@@ -215,13 +239,10 @@ div.text p {
     margin-top: 40px;
 }
 
-.iphone-2 {}
 
 .your-shop p {
     font-size: 12px;
     padding-bottom: 20px;
-
-
 }
 
 .your-shop h2 {
@@ -261,10 +282,7 @@ div.text p {
     font-size: 12px;
     padding-bottom: 20px;
     margin-left: 50px;
-
 }
-
-
 
 .foto-trumpet {
     max-width: 59%;
@@ -349,6 +367,7 @@ button.begin {
 }
 
 .professional h2 {
+    margin-top: 0;
 
     color: #07ACE6;
 }
@@ -412,13 +431,13 @@ button.begin {
     color: #A5A5A5;
 }
 
-.contatc0 {
+.contact0 {
 
     display: flex;
 }
 
 .contact-info {
-
+    margin-left: 20px;
     display: flex;
 }
 
@@ -430,7 +449,24 @@ button.begin {
     width: 300px;
 }
 
+a.email {
+    padding-left: 15px;
+    color: #A5A5A5;
+}
+
+
+a.tel {
+    padding-left: 15px;
+    color: #A5A5A5;
+}
+
 .souhlas {
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.souhlas p {
 
     color: #A5A5A5;
     font-size: 13px;
@@ -447,12 +483,20 @@ button.begin {
 
 }
 
+span {
 
-button.btn {
-
-    width: 159px;
+    padding-left: 15px;
 }
 
+button.btn {
+    margin-left: 155px;
+    width: 159px;
+
+}
+
+.section-6 button.btn {
+    margin-bottom: 50px;
+}
 
 .checkbox input:checked {
     background: url(/images/Checkmark.svg) no-repeat;
@@ -462,28 +506,18 @@ button.btn {
 .questions p {
     padding-bottom: 30px;
     padding-top: 30px;
-
+    margin-left: 30px;
 }
 
-
 .footer {
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 0 -1px 30px gray;
 }
 
-div.logo {
-    padding-top: 0;
-}
 
-
-.twiter {
-    background: url(../images/Twitter.svg) no-repeat;
-
-}
-
-.facebook {
-
-    background: url(../images/Facebook.svg) no-repeat;
+.navidation1 {
+    padding-left: 650px;
 }
